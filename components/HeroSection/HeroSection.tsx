@@ -5,6 +5,7 @@ import { Particles } from "../magicui/particles";
 import { Button } from "../ui/button";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { AnimatedBeamHero } from "./AnimatedBeam";
 
 export default function HeroSection() {
   return (
@@ -46,6 +47,14 @@ export default function HeroSection() {
             <ArrowRightIcon className="ml-1 size-4" />
           </Button>
         </Link>
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, translateY: "-5px" }}
+        animate={{ opacity: 1, translateY: 0 }}
+        transition={{ duration: 1, ease: "easeOut", delay: 0.7 }}
+        className="w-full"
+      >
+        <AnimatedBeamHero />
       </motion.div>
     </section>
   );
