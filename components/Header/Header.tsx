@@ -19,9 +19,9 @@ export default function Header() {
           <Image
             src={PixelLogo}
             alt="Logo"
-            width={200}
-            height={200}
-            className="w-24 sm:w-48"
+            width={100}
+            height={100}
+            className="w-14 sm:w-20"
           />
         </Link>
         <Link href={"#contact"}>
