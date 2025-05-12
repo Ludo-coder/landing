@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.pixelbyludo.fr/
+
+# Sitemaps
+Sitemap: https://www.pixelbyludo.fr/sitemap.xml

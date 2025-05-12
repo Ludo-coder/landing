@@ -43,7 +43,7 @@ export default function HeroSection() {
       >
         <Link href={"#contact"}>
           <Button className="gap-1 rounded-lg text-white dark:text-black cursor-pointer">
-            <span>Faisons connaissance </span>
+            <span>Contactez-moi</span>
             <ArrowRightIcon className="ml-1 size-4" />
           </Button>
         </Link>
